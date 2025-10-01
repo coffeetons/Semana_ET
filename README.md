@@ -18,9 +18,9 @@ Esse foi um site criado para a semana da Etec, foi decido fazer um site que se b
 
 ### autores
 [![Contributors][contributors-shield]][contributors-url]
--Arthur Curcio de Campos Miranda
--Matheus Kenzo Kobori Barres
--Rafael Januzzi Costa
+-Arthur Curcio de Campos Miranda__
+-Matheus Kenzo Kobori Barres__
+-Rafael Januzzi Costa__
 
 ### Objetivo
 
