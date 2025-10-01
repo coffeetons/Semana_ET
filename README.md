@@ -17,7 +17,8 @@ Esse foi um site criado para a semana da Etec, foi decido fazer um site que se b
 ## Visão Geral 
 
 ### autores
--Arthur Curcio de Campos Miranda[![Contributors][contributors-shield]][contributors-url]
+[![Contributors][contributors-shield]][contributors-url]
+-Arthur Curcio de Campos Miranda
 -Matheus Kenzo Kobori Barres
 -Rafael Januzzi Costa
 
