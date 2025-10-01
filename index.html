@@ -1,6 +1,5 @@
-
  <!doctype html>
- <html lang="en">
+ <html lang="pt-br">
     <head>
         <title>Title</title>
  <!-- Required meta tags -->
@@ -19,22 +18,31 @@
  
     <body class="">
         <header>
-            <!-- place navbar here -->
-            <main>
-                <div id="jumbo" class="bg-body-tertiary rounded-3 w-100 window"">
+            <div id="headerContainer">
+                <!-- place navbar here -->
+                <div id="jumbo" class="bg-body-tertiary w-100 window" >
                     <div class="container-fluid py-2 w-100 d-flex flex-column text-center">
                         <h1 class="display-5 fw-bold w-100">Caminho DS<h1>
-                        <p class="col-md-8 fs-4 w-100">Projeto da Semana da Etec</p>
-                        <div id="hide"><i class="bi bi-arrow-down"></i></div>
+                            <p class="col-md-8 fs-4 w-100">Projeto da Semana da Etec</p>
+                            <div id="hide"><i class="bi bi-arrow-down"></i></div>
+                        </div>
                     </div>
+                    <div id="iconBox" 
+                    class="w-100 mt-4
+                    d-flex align-items-center justify-content-center top-100">
+                    <div id="icon"
+                    class=" bg-info rounded-circle">
+                    <i class="fa-solid fa-eye-slash fa-2xl"
+                    onclick="hideJumbo()"></i>
                 </div>
-                <div id="icon" onclick="hideJumbo()" 
-                class="d-flex justify-content-center align-self-center bg-white ">
-                <i class="fa-solid fa-eye-slash"></i>
-                </div>
-            </main>
-            </header>
-                
+            </div>
+        </div>
+        </header>
+        <main>
+            <div>
+
+            </div>
+        </main>
         <footer>
             <!-- place footer here -->
         </footer>
