@@ -1,9 +1,12 @@
+
 body {
-    background-image: url(fundo.jpg);
+    background-image: url(/IMAGENS/fundo.jpg);
+}
+*{
+    transition: all 2s ease-in-out;
 }
 
 #jumbo {
-    transition: opacity 2s ease-in-out, margin-top 2s ease-in-out;
 }
 
 .opacity-100 {
@@ -17,4 +20,23 @@ body {
     margin-top: -100px;
 }
 
+.container-window{
+    width: 100dvw;
+    height: 50dvh;
+}
+
+/* .carousel-control-next{
+    position
+} */
+
+
+#vscodeIcon{
+    width: 50px;
+    height: 50px;
+}
+
+.hidden {
+    opacity: 0;
+    margin-top: 90dvh;
+}
 /* tf am I doing twin 😀 */
