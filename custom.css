@@ -1,0 +1,34 @@
+:root{
+    /* windows 98 pallete */
+    --blue98: #010081;
+    --bg98: #008080;
+    --gray98: #C3C3C3;
+    --dark-gray98: #818181
+}
+
+
+.bg-blue98  { background-color: var(--blue98) !important; }
+.bg-98      { background-color: var(--bg98) !important; }
+.bg-gray98  { background-color: var(--gray98) !important; }
+.bg-dgray98 { background-color: var(--dark-gray98) !important; }
+
+.text-blue98  { color: var(--blue98) !important; }
+.text-98      { color: var(--bg98) !important; }
+.text-gray98  { color: var(--gray98) !important; }
+.text-dgray98 { color: var(--dark-gray98) !important; }
+
+
+/* percentage height utilities */
+.h-10 { height: 10% !important; }
+.h-60 { height: 60% !important; }
+.h-75 { height: 75% !important; }
+.h-90 { height: 90% !important; }
+
+
+/* percentage width utilities */
+.w-10 { width: 10% !important; }
+.w-60 { width: 60% !important; }
+.w-75 { width: 75% !important; }
+.w-90 { width: 90% !important; }
+
+

@@ -6,7 +6,10 @@ body {
     transition: all 2s ease-in-out;
 }
 
-#jumbo {
+
+.hidden {
+    opacity: 0;
+    margin-top: 90dvh;
 }
 
 .opacity-100 {
@@ -25,18 +28,71 @@ body {
     height: 50dvh;
 }
 
-/* .carousel-control-next{
-    position
-} */
-
-
-#vscodeIcon{
-    width: 50px;
+/* only affects the child elements */
+#iconRow > .button{
     height: 50px;
+    width: 50px;
+}
+#vscodeIcon{
+    height: 40px;
+    width: 40px;    
+}
+/* slide stylization */
+
+
+.slideWidth{
+    width: 80%;
+}
+.slideHeight{
+    height: 100%;
 }
 
-.hidden {
-    opacity: 0;
-    margin-top: 90dvh;
+@media only screen and (max-width: 600px) {
+    html{
+        font-size: 12px;
+        overflow: hidden !important;
+    }
+    .slideWidth{
+        width: 90%;
+    }
+    .slideHeight{
+       height: 100%;
+    }
+    
 }
-/* tf am I doing twin 😀 */
+
+/* Responsive typography (uses clamp() for fluid scaling) z*/
+/* Targets jumbo headings and carousel text so they scale smoothly across viewports */
+#jumbo h1.display-5,
+#jumbo h1
+{
+    /* min 1.5rem, preferred scales with viewport, max 3.5rem */
+    font-size: clamp(1.5rem, 1.25rem + 2.5vw, 3.5rem);
+    line-height: 1.1;
+    margin: 0 0 0.5rem 0;
+}
+
+#jumbo p,
+p {
+    /* min 0.95rem, preferred scales with viewport, max 1.25rem */
+    font-size: clamp(0.95rem, 0.8rem + 0.6vw, 1.25rem);
+    line-height: 1.5;
+    margin: 0 0 1rem 0;
+}
+
+/* helper class in case your markup uses .text-size */
+.text-size {
+    font-size: clamp(0.95rem, 0.8rem + 0.6vw, 1.25rem);
+}
+
+/* accessibility: ensure very small viewports still have readable text */
+@media (max-width: 360px) {
+    #jumbo h1.display-5,
+    #jumbo h1 {
+        font-size: clamp(1.4rem, 1.1rem + 2.2vw, 2.6rem);
+    }
+    #jumbo p,
+     p {
+        font-size: clamp(0.98rem, 0.9rem + 0.4vw, 1.05rem);
+    }
+}
