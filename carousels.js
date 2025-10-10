@@ -1,10 +1,10 @@
-let index = 0; // Defina o índice para ser único
-
+let index = 0;
+// oiii
 function slide(botaoPressionado) {
   var carouselPosition = document.getElementById("window");
   
   let carouselStyle = "";
-  index++; // Incrementa o índice a cada chamada
+  index++;
 
   if (botaoPressionado.id === "ide") {
     carouselStyle = `
@@ -214,5 +214,5 @@ function slide(botaoPressionado) {
 
 function removeWindow(windowId) {
   const windowElement = document.getElementById(windowId);
-  windowElement.remove(); // Remove a janela com o id específico
+  windowElement.remove();
 }
