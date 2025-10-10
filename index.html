@@ -21,6 +21,7 @@
     <!-- custom css -->
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="custom.css">
+    <link rel="stylesheet" href="scroll.css">
     <!-- font awesome -->
     <script src="https://kit.fontawesome.com/ae243d104e.js" crossorigin="anonymous"></script>
 </head>
@@ -46,10 +47,16 @@
     </header>
     <main id="main">
         <div id="iconRow" class="my-3  d-flex justify-content-around align-content-between">
-            <button class="rounded-circle button" onclick="slide()">
+            <button id="ide" class="rounded-circle button" onclick="slide(ide)">
                 <i class="fa-solid fa-terminal icon" id=""></i>
             </button>
-            <button class="rounded-circle button" onclick="app()">
+            <button id="diario" class="rounded-circle button" onclick="slide(diario)">
+                <img src="IMAGENS/vscodeIcon.png" alt="VS Code Icon" id="vscodeIcon" class="vscodeIcon">
+            </button>
+            <button id="brasil" class="rounded-circle button" onclick="slide(brasil)">
+                <img src="IMAGENS/vscodeIcon.png" alt="VS Code Icon" id="vscodeIcon" class="vscodeIcon">
+            </button>
+            <button id="corinthians" class="rounded-circle button" onclick="slide(corinthians)">
                 <img src="IMAGENS/vscodeIcon.png" alt="VS Code Icon" id="vscodeIcon" class="vscodeIcon">
             </button>
         </div id="iconRow">
@@ -157,6 +164,9 @@
         <!-- js -->
         <script src="script.js"></script>
         <script src="carousels.js"></script>
+        <script>
+            
+        </script>
 </body>
 
 </html>
