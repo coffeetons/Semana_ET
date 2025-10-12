@@ -17,6 +17,7 @@
 .text-gray98  { color: var(--gray98) !important; }
 .text-dgray98 { color: var(--dark-gray98) !important; }
 
+.border-dgray98{border-color: var(--dark-gray98) !important; }
 
 /* percentage height utilities */
 .h-10 { height: 10% !important; }
