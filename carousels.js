@@ -138,8 +138,8 @@ function slide(botaoPressionado) {
                 <!--? SLIDE 4 -->
                 <div class="carousel-item h-100" style="padding: 0px 9%; overflow: scroll;">
                   <div class="scroll-area p-4 text-center text-light d-flex flex-column align-items-center">
-                    <h1 class="text-98 mb-3 mt-3">Introdução à Banco de Dadods</h1>
-                    <p>A última IDE que nós usamos foi a do SQL Server Managment Studio ou SSMS, para criar bancos, tabelas, exibições enquanto vinculando esse banco com aplicações na matéria de BDI (banco de dados I)</p>
+                    <h1 class="text-98 mb-3 mt-3">Introdução à Banco de Dados</h1>
+                    <p>A última IDE é o SQL Server Managment Studio ou SSMS, para criar bancos, tabelas, exibições enquanto vinculando esse banco com aplicações na matéria de BDI (banco de dados I)</p>
                     <div id="cardAll3" class="w-auto d-flex flex-column align-content-center justify-content-center">
                       <div class="border border-5 rounded-3 flex-wrap align-self-center" style="border-color: #818181 !important;">
                         <img src="IMAGENS/sqlstudioIcon.webp" class="icon m-1" alt="">
