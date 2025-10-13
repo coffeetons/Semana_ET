@@ -5,6 +5,7 @@ function slide(botaoPressionado) {
   
   let carouselStyle = "";
   index++;
+// ?test to see if the code in the repo is correct
 
   if (botaoPressionado.id === "ide") {
     carouselStyle = `
